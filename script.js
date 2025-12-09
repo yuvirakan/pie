@@ -185,16 +185,9 @@ function getFallbackData() {
         {"Kota":"Yogyakarta","Bulan":"Juli","Tahun":"2025","Jumlah_Bed_Terisi":130.19,"Sisa_Bed_Tersedia":69.81,"Kapasitas_Bed":200,"Persentase":65.1},
         {"Kota":"Yogyakarta","Bulan":"Agustus","Tahun":"2025","Jumlah_Bed_Terisi":102.68,"Sisa_Bed_Tersedia":97.32,"Kapasitas_Bed":200,"Persentase":51.3},
         {"Kota":"Yogyakarta","Bulan":"September","Tahun":"2025","Jumlah_Bed_Terisi":169.83,"Sisa_Bed_Tersedia":30.17,"Kapasitas_Bed":200,"Persentase":84.9},
-        {"Kota":"Yogyakarta","Bulan":"Oktober","Tahun":"2025","Jumlah_Bed_Terisi":86.24,"Sisa_Bed_Tersedia":113.76,"Kapasitas_Bed":200,"Persentase":43.1},
+        {"Kota":"Yogyakarta","Bulan":"Oktober","Tahun":"2025","Jumlah_Bed_Terisi":86.24,"Sisa_Bed_Tersedia":113.76,"Kapasitas_Bed":200,"Persentase":43.1}
         // Data untuk tahun 2026
-        {"Kota":"Bandung","Bulan":"Januari","Tahun":"2026","Jumlah_Bed_Terisi":70.3,"Sisa_Bed_Tersedia":129.7,"Kapasitas_Bed":200,"Persentase":35.2},
-        {"Kota":"Bandung","Bulan":"Februari","Tahun":"2026","Jumlah_Bed_Terisi":148.9,"Sisa_Bed_Tersedia":51.1,"Kapasitas_Bed":200,"Persentase":74.5},
-        {"Kota":"Padang","Bulan":"Januari","Tahun":"2026","Jumlah_Bed_Terisi":45.2,"Sisa_Bed_Tersedia":154.8,"Kapasitas_Bed":200,"Persentase":22.6},
-        {"Kota":"Padang","Bulan":"Februari","Tahun":"2026","Jumlah_Bed_Terisi":52.8,"Sisa_Bed_Tersedia":147.2,"Kapasitas_Bed":200,"Persentase":26.4},
-        {"Kota":"Surabaya","Bulan":"Januari","Tahun":"2026","Jumlah_Bed_Terisi":120.5,"Sisa_Bed_Tersedia":79.5,"Kapasitas_Bed":200,"Persentase":60.3},
-        {"Kota":"Surabaya","Bulan":"Februari","Tahun":"2026","Jumlah_Bed_Terisi":158.7,"Sisa_Bed_Tersedia":41.3,"Kapasitas_Bed":200,"Persentase":79.4},
-        {"Kota":"Makassar","Bulan":"Januari","Tahun":"2026","Jumlah_Bed_Terisi":85.4,"Sisa_Bed_Tersedia":22.6,"Kapasitas_Bed":108,"Persentase":79.1},
-        {"Kota":"Yogyakarta","Bulan":"Januari","Tahun":"2026","Jumlah_Bed_Terisi":95.2,"Sisa_Bed_Tersedia":104.8,"Kapasitas_Bed":200,"Persentase":47.6}
+        
         
     ].map((item, index) => ({
         ...item,
