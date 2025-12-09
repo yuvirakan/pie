@@ -136,7 +136,7 @@ async function loadData() {
 // Data fallback jika file JSON tidak ditemukan dengan tahun
 function getFallbackData() {
     return [
-        {"Kota":"Bandung","Bulan":"Januari","Tahun":"2025","Jumlah_Bed_Terisi":59.67,"Sisa_Bed_Tersedia":140.33,"Kapasitas_Bed":200,"Persentase":29.8},
+        {"Kota":"Bandung","Bulan":"Januari","Tahun":"2025","Jumlah_Bed_Terisi":59.67,"Sisa_Bed_Tersedia":140.33,"Kapasitas_Bed":200,"Persentase":29.888888888},
         {"Kota":"Bandung","Bulan":"Februari","Tahun":"2025","Jumlah_Bed_Terisi":141.5,"Sisa_Bed_Tersedia":58.5,"Kapasitas_Bed":200,"Persentase":70.8},
         {"Kota":"Bandung","Bulan":"Maret","Tahun":"2025","Jumlah_Bed_Terisi":58.3,"Sisa_Bed_Tersedia":141.7,"Kapasitas_Bed":200,"Persentase":29.2},
         {"Kota":"Bandung","Bulan":"April","Tahun":"2025","Jumlah_Bed_Terisi":36.6,"Sisa_Bed_Tersedia":163.4,"Kapasitas_Bed":200,"Persentase":18.3},
@@ -166,6 +166,7 @@ function getFallbackData() {
         {"Kota":"Surabaya","Bulan":"Agustus","Tahun":"2025","Jumlah_Bed_Terisi":172.28,"Sisa_Bed_Tersedia":27.72,"Kapasitas_Bed":200,"Persentase":86.1},
         {"Kota":"Surabaya","Bulan":"September","Tahun":"2025","Jumlah_Bed_Terisi":120.41,"Sisa_Bed_Tersedia":79.59,"Kapasitas_Bed":200,"Persentase":60.2},
         {"Kota":"Surabaya","Bulan":"Oktober","Tahun":"2025","Jumlah_Bed_Terisi":144.23,"Sisa_Bed_Tersedia":55.77,"Kapasitas_Bed":200,"Persentase":72.1},
+        {"Kota":"Surabaya","Bulan":"November","Tahun":"2025","Jumlah_Bed_Terisi":125.77,"Sisa_Bed_Tersedia":74.23,"Kapasitas_Bed":200,"Persentase":62.9},
         {"Kota":"Makassar","Bulan":"Januari","Tahun":"2025","Jumlah_Bed_Terisi":75.03,"Sisa_Bed_Tersedia":124.97,"Kapasitas_Bed":200,"Persentase":37.5},
         {"Kota":"Makassar","Bulan":"Februari","Tahun":"2025","Jumlah_Bed_Terisi":65.79,"Sisa_Bed_Tersedia":42.21,"Kapasitas_Bed":108,"Persentase":60.9},
         {"Kota":"Makassar","Bulan":"Maret","Tahun":"2025","Jumlah_Bed_Terisi":35.45,"Sisa_Bed_Tersedia":72.55,"Kapasitas_Bed":108,"Persentase":32.8},
@@ -185,9 +186,9 @@ function getFallbackData() {
         {"Kota":"Yogyakarta","Bulan":"Juli","Tahun":"2025","Jumlah_Bed_Terisi":130.19,"Sisa_Bed_Tersedia":69.81,"Kapasitas_Bed":200,"Persentase":65.1},
         {"Kota":"Yogyakarta","Bulan":"Agustus","Tahun":"2025","Jumlah_Bed_Terisi":102.68,"Sisa_Bed_Tersedia":97.32,"Kapasitas_Bed":200,"Persentase":51.3},
         {"Kota":"Yogyakarta","Bulan":"September","Tahun":"2025","Jumlah_Bed_Terisi":169.83,"Sisa_Bed_Tersedia":30.17,"Kapasitas_Bed":200,"Persentase":84.9},
-        {"Kota":"Yogyakarta","Bulan":"Oktober","Tahun":"2025","Jumlah_Bed_Terisi":86.24,"Sisa_Bed_Tersedia":113.76,"Kapasitas_Bed":200,"Persentase":43.1}
+        {"Kota":"Yogyakarta","Bulan":"Oktober","Tahun":"2025","Jumlah_Bed_Terisi":86.24,"Sisa_Bed_Tersedia":113.76,"Kapasitas_Bed":200,"Persentase":43.1},
+        {"Kota":"Yogyakarta","Bulan":"November","Tahun":"2025","Jumlah_Bed_Terisi":133.44,"Sisa_Bed_Tersedia":66.56,"Kapasitas_Bed":200,"Persentase":66.7}
         // Data untuk tahun 2026
-        
         
     ].map((item, index) => ({
         ...item,
