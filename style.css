@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
+.body {
     background-color: #f5f7fa;
     color: #333;
     line-height: 1.6;
@@ -162,7 +162,7 @@ body {
 }
 
 .card-header h3 {
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -253,8 +253,20 @@ body {
     margin-top: 40px;
     overflow: hidden;
     margin-left: -25px;
-    height: 440px; 
+    height: 415px; 
     width: 300px;
+}
+
+.section-header2 {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    padding: 12px;
+    width: 100%;
+    height: 80px;
+    font-size: 8px;
+    font-weight: 300;
+    border: 2px solid #e9ecef;
+    margin-bottom: 0;
 }
 
 .section-header {
@@ -263,6 +275,52 @@ body {
     padding: 12px;
     border: 2px solid #e9ecef;
     margin-bottom: 0;
+}
+.monthly-comparison-section {
+    text-align: center; /* Pusatkan semua konten */
+}
+.month-title {
+    
+    font-size: 11px;
+    font-weight: 400;
+    color: #2c3e50;
+    margin-top: 5px;
+    padding: 12px 24px;
+    background: hsla(207, 100%, 77%, 0.226);
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #7ac8ff00;
+    box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
+    min-width: 100px;
+    
+}
+    
+
+
+/* Untuk highlight bulan tertentu */
+.month-title.highlight {
+    background: linear-gradient(135deg, #4BC0C0 0%, #36A2EB 100%);
+    color: white;
+    border-color: #2c3e50;
+    text-align: center;
+    align-items: center;
+    
+}
+
+/* Untuk layout header yang lebih baik */
+.section-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px 25px;
+    
+}
+
+.section-header h3 {
+    margin: 0;
 }
 
 .section-header h3 {
@@ -337,20 +395,20 @@ body {
 }
 /* Main Pie Chart Section */
 .main-chart-section {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(239, 107, 107, 0.08);
     padding: 25px;
     border: 1px solid #e9ecef;
-    height: 550px;
+    height: 520px;
     width: 300px;
 }
 
 .chart-subtitle {
-    font-size: 16px;
+    font-size: 13px;
     color: #ffffff;
     margin-top: 8px;
-    font-weight: 400;
+    font-weight: 300px;
 }
 
 .main-chart-container {
@@ -399,7 +457,7 @@ body {
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
     padding: 25px;
-    height: 300px;
+    height: 340px;
     width: 980px;
     border: 1px solid #e9ecef;
 }
@@ -562,7 +620,7 @@ body {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
     padding: 25px;
     border: 1px solid #e9ecef;
-    height: 350px;
+    height: 400px;
     width: 100%
 }
 
@@ -572,16 +630,6 @@ body {
     margin-top: 20px;
 }
 
-/* Data Table */
-.data-table-container {
-    background-color: white;
-    border-radius: 12px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
-    padding: 25px;
-    margin-bottom: 40px;
-    overflow-x: auto;
-    border: 1px solid #e9ecef;
-}
 
 .table-header {
     display: flex;
@@ -607,15 +655,15 @@ body {
     font-weight: 600;
     color: white;
 }
-
+/*table paling bawah*/ 
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: initial;
     font-size: 14px;
 }
 
 thead {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: linear-gradient(135deg, #dae4ef 0%, #6bb0f5 100%);
 }
 
 th {
@@ -761,7 +809,7 @@ tr:hover {
     }
     
     .mini-chart-card {
-        min-height: 200px;
+        min-height: 300px;
         padding: 15px;
     }
     
