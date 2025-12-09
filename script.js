@@ -194,7 +194,7 @@ function getFallbackData() {
         {"Kota":"Surabaya","Bulan":"Januari","Tahun":"2026","Jumlah_Bed_Terisi":120.5,"Sisa_Bed_Tersedia":79.5,"Kapasitas_Bed":200,"Persentase":60.3},
         {"Kota":"Surabaya","Bulan":"Februari","Tahun":"2026","Jumlah_Bed_Terisi":158.7,"Sisa_Bed_Tersedia":41.3,"Kapasitas_Bed":200,"Persentase":79.4},
         {"Kota":"Makassar","Bulan":"Januari","Tahun":"2026","Jumlah_Bed_Terisi":85.4,"Sisa_Bed_Tersedia":22.6,"Kapasitas_Bed":108,"Persentase":79.1},
-        {"Kota":"Yogyakarta","Bulan":"September","Tahun":"2026","Jumlah_Bed_Terisi":95.2,"Sisa_Bed_Tersedia":104.8,"Kapasitas_Bed":200,"Persentase":47.6}
+        {"Kota":"Yogyakarta","Bulan":"September","Tahun":"2026","Jumlah_Bed_Terisi":95.2,"Sisa_Bed_Tersedia":104.8,"Kapasitas_Bed":200,"Persentase":47.6},
         {"Kota":"Yogyakarta","Bulan":"Januari","Tahun":"2026","Jumlah_Bed_Terisi":95.2,"Sisa_Bed_Tersedia":104.8,"Kapasitas_Bed":200,"Persentase":47.6}
     ].map((item, index) => ({
         ...item,
