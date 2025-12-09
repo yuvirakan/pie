@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Monitoring Occupancy - Pie Chart & Trend</title>
+    <title>Dashboard Monitoring Occupancy Asrama Regional Kampus - Pie Chart & Trend</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -12,7 +12,7 @@
     <div class="container">
         <!-- Header -->
         <header class="dashboard-header">
-            <h1><i class=></i> Dashboard Monitoring Occupancy</h1>
+            <h1><i class=></i> Dashboard Monitoring Occupancy Asrama Regional Campus</h1>
             <div class="last-updated">
                 <span id="last-updated-text">Terakhir diperbarui: -</span>
             </div>
@@ -39,8 +39,18 @@
                             <option value="September">September</option>
                             <option value="Oktober">Oktober</option>
                             <option value="November">November</option>
+                            <option value="Desember">Desember</option>
                         </select>
                     </div>
+                     <!-- Filter Tahun - TAMBAH INI -->
+                        <div class="filter-group">
+                            <label for="year-filter"><i class="fas fa-calendar"></i> Filter Tahun:</label>
+                            <select id="year-filter">
+                                <option value="all">Semua Tahun</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                            </select>
+                        </div>
                     
                     <div class="filter-group">
                         <label for="city-filter"><i class="fas fa-city"></i> Filter Kota:</label>
@@ -63,7 +73,7 @@
                 <div class="dashboard-cards">
                     <div class="card">
                         <div class="card-header">
-                            <h3><i class="fas fa-bed"></i> Kapasitas Bed</h3>
+                            <h3><i class="fas fa-bed"></i> Rata-Rata Kapasitas Bed</h3>
                         </div>
                         <div class="card-content">
                             <div class="card-value" id="bed-capacity">0</div>
@@ -73,7 +83,7 @@
                     
                     <div class="card">
                         <div class="card-header">
-                            <h3><i class="fas fa-procedures"></i> Bed Terisi</h3>
+                            <h3><i class="fas fa-procedures"></i>Rata-Rata Bed Terisi</h3>
                         </div>
                         <div class="card-content">
                             <div class="card-value" id="bed-filled">0</div>
@@ -108,7 +118,7 @@
             <div class="right-column">
                 <!-- Row 1: Main Pie Chart -->
                 <div class="main-chart-section">
-                    <div class="section-header">
+                    <div class="section-header2">
                         <h3><i class="fas fa-chart-pie"></i> Distribusi Occupancy per Kota</h3>
                         <div class="chart-subtitle" id="chartTitle">Rata-rata semua bulan</div>
                     </div>
@@ -124,7 +134,7 @@
                     <!-- City List -->
                 <div class="city-list-section">
                     <div class="section-header">
-                        <h3><i class="fas fa-list"></i> Daftar Kota</h3>
+                        <h3><i class="fas fa-list"></i> Daftar Regional Kampus</h3>
                     </div>
                     <div class="city-list" id="cityList">
                         <!-- Kota akan diisi oleh JavaScript -->
@@ -137,7 +147,7 @@
                     <!-- Trend Chart -->
                     <div class="trend-chart-section">
                         <div class="section-header">
-                            <h3><i class="fas fa-chart-line"></i> Trend Penggunaan Bed</h3>
+                            <h3><i class="fas fa-chart-line"></i> Trend Occupancy</h3>
                         </div>
                         <div class="trend-chart-container">
                             <canvas id="trendChart"></canvas>
@@ -147,7 +157,7 @@
                     <!-- Mini Pie Charts -->
                     <div class="mini-pie-charts-section">
                         <div class="section-header">
-                            <h3><i class="fas fa-chart-pie"></i> Detail per Kota</h3>
+                            <h3><i class="fas fa-chart-pie"></i> Detail Regional Kampus</h3>
                         </div>
                         <div class="mini-charts-grid" id="miniChartsGrid">
                             <!-- Mini pie charts akan diisi oleh JavaScript -->
@@ -158,6 +168,7 @@
                     <div class="section-header">
                         <h3><i class="fas fa-calendar-alt"></i> Perbandingan Bulanan</h3>
                     </div>
+                    <div class="month-title" id="monthTitle">Bulan: Rata-rata Semua Bulan 2025</div>
                     <div class="comparison-chart-container">
                         <canvas id="comparisonChart"></canvas>
                     </div>
@@ -181,6 +192,7 @@
                     <tr>
                         <th>No</th>
                         <th>Bulan</th>
+                        <th>Tahun</th>
                         <th>Kota</th>
                         <th>Kapasitas Bed</th>
                         <th>Bed Terisi</th>
@@ -196,7 +208,7 @@
 
         <!-- Footer -->
         <footer class="dashboard-footer">
-            <p>Dashboard Kapasitas Bed &copy; 2025 | Data terakhir diperbarui: <span id="update-date">-</span></p>
+            <p>Dashboard Monitoring Occupancy Asrama Regional Campus &copy; 2025 | Data terakhir diperbarui: <span id="update-date">-</span></p>
         </footer>
     </div>
 
